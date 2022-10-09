@@ -100,7 +100,7 @@ function App() {
           <img src={portrait} />
         </div>
         <div className={`dropdown-menu ${open ? 'active' : 'inactive '}`} >
-          <h3>The Coder<br /><span>React Developer</span></h3>
+          <h3>The Coder<br /><span>React Developer</span><p className='Para'>Nishu Ahmad Full Stack MERN Developer</p></h3>
           <ul>
 
               {listTobeRendered}
