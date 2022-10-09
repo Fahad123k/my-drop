@@ -1,7 +1,7 @@
 import './App.css';
 // import images
 // import portrait from 'https://cdn-icons-png.flaticon.com/512/64/64572.png';
-import portrait from '../src/images/user3.png';
+import portrait from '../src/images/Arrow.png';
 import list from '../src/images/list.png';
 import user from '../src/images/user.png';
 import edit from '../src/images/edit.png';
@@ -97,7 +97,7 @@ function App() {
 
       <div className="menu-container" ref={menuRef}>
         <div className="menu-trigger" onClick={() => { setOpen(!open) }} onMouseOver={() => { setOpen(!open) }}>
-          <img src={list} />
+          <img src={portrait} />
         </div>
         <div className={`dropdown-menu ${open ? 'active' : 'inactive '}`} >
           <h3>The Coder<br /><span>React Developer</span></h3>
